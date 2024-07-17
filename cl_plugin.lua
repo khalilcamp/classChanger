@@ -7,7 +7,7 @@ net.Receive("ixOpenClassChangeMenu", function()
 
     local scroll = vgui.Create("DScrollPanel", frame)
     scroll:Dock(FILL)
-        --  OIIIIIII LYPOS :3
+
     for _, class in pairs(ix.class.list) do
         if ix.class.CanSwitchTo(LocalPlayer(), class.index) then
             local classButton = scroll:Add("DButton")

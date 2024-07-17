@@ -5,3 +5,8 @@ ENT.Author = "Kalingo :3"
 ENT.Category = "Helix"
 ENT.Spawnable = true
 ENT.AdminSpawnable = true
+
+
+function ENT:SetupDataTables()
+    
+end
